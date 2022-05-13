@@ -19,6 +19,7 @@ export type Product = {
   id: string
   name: string
   description: string
+  rating: number
   descriptionHtml?: string
   sku?: string
   slug?: string

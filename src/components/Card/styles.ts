@@ -43,6 +43,11 @@ export const ImageWrapper = styled.div`
     transition: transform 0.3s;
   }
 `
-export const ProductInfoWrapper = styled.div``
+export const ProductInfoWrapper = styled.div`
+  color: ${({ theme }) => theme.colors.brown};
+  /* background: ${({ theme }) => theme.colors.beige}; */
+  padding: 1rem;
+  border-radius: 0 0 24px 24px;
+`
 
 export const IconWrraper = styled.div``
