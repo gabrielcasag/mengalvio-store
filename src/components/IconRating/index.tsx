@@ -1,6 +1,6 @@
-import React, { useState, useRef, MouseEventHandler } from 'react'
+import React, { useState, useRef } from 'react'
 
-import { RiStarLine, RiStarHalfFill, RiStarFill } from 'react-icons/ri'
+import { RiStarLine, RiStarFill } from 'react-icons/ri'
 
 interface DivProps {
   [key: string]: any

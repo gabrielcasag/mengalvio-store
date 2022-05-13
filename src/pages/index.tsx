@@ -6,7 +6,7 @@ import SEO from '@/layouts/SEO'
 import Banner from '@/layouts/Banner'
 
 import * as S from '../styles/pages/Home/styles'
-import Card from '@/components/Card'
+import ProductCard from '@/components/ProductCard'
 
 export default function Home() {
   const [isMenuMobileOpen, setIsMenuMobileOpen] = useState(false)
@@ -25,9 +25,28 @@ export default function Home() {
       <main>
         <Banner />
 
-        <section>
-          <S.SectionTitle>Conheça nossos produtos</S.SectionTitle>
-          <Card />
+        <S.SectionTitle>Conheça nossos produtos</S.SectionTitle>
+        <section
+          style={{
+            display: 'grid',
+            maxWidth: '1280px',
+            margin: '0 auto',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(310px, 1fr))',
+            justifyContent: 'center',
+            alignItems: 'center',
+            padding: '1rem',
+            rowGap: '2rem',
+          }}
+        >
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
         </section>
       </main>
     </>
