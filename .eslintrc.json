@@ -1,9 +1,5 @@
 {
-  "extends": [
-    "next/core-web-vitals", 
-    "prettier/@typescript-eslint",
-    "prettier/react"
-  ],
+  "extends": ["next/core-web-vitals", "plugin:prettier/recommended"],
   "rules": {
     "prettier/prettier": "error",
     "react/prop-types": "off",
