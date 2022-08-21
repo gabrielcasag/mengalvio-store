@@ -1,7 +1,12 @@
 {
   "name": "mengalvio-next",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
+  "author": {
+    "name": "Gabriel Gasperi Casagrande",
+    "email": "gaspericasag@gmail.com",
+    "url": "https://github.com/gabrielcasag"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
