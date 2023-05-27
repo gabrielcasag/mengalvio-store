@@ -3,9 +3,10 @@ import styled from 'styled-components'
 export const Container = styled.section`
   display: flex;
   height: 40vh;
-  margin-top: 32px;
-`
+  width: 100%;
+  margin-top: 0.5rem;
 
-export const ImageWrapper = styled.div`
-  background-image: cover;
+  > span {
+    width: 100% !important;
+  }
 `

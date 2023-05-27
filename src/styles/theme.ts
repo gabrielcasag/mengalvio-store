@@ -15,4 +15,8 @@ export const theme = {
     tablet: '900px',
     desktop: '1200px',
   },
+  spaces: {
+    gridMargin: '2rem',
+    gridMaxWidth: '1216px',
+  },
 }

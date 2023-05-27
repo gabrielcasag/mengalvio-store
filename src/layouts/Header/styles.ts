@@ -17,23 +17,25 @@ export const Header = styled.header<HeaderProps>`
       top: 0;
       left: 0;
       background-color: ${props.theme.colors.white};
+      box-shadow: 0px 2px 6px rgba(91, 83, 73, 0.4);
     `}
 `
 
 export const Nav = styled.nav`
-  padding: 0.25rem 1rem;
   flex: 1;
   display: flex;
-  max-width: 1200px;
+  max-width: ${props => props.theme.spaces.gridMaxWidth};
+  padding: 0 ${props => props.theme.spaces.gridMargin};
+
   margin: 0 auto;
 
   #logo {
-    /* position: absolute; 
+    position: absolute;
     left: 50%;
-    transform: translate(-50%, -20%);
-    */
-    width: 200px;
-    z-index: 9999;
+    transform: translate(-50%, -25%);
+    width: 132px;
+
+    z-index: 9;
   }
 `
 
@@ -44,7 +46,7 @@ interface MenuProps {
 export const MenuList = styled.ul<MenuProps>`
   list-style: none;
   display: flex;
-  align-items: center;
+
   width: 100%;
   gap: 2rem;
   justify-content: ${props => `flex-${props.position}`};
@@ -54,7 +56,7 @@ export const MenuList = styled.ul<MenuProps>`
     align-items: center;
     font-weight: 600;
     font-size: 1.2rem;
-    padding: 1rem;
+    padding: 1.2rem 0;
     cursor: pointer;
 
     transition: filter 0.2s;

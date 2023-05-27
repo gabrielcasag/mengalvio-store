@@ -29,12 +29,12 @@ export default function Home() {
         <section
           style={{
             display: 'grid',
-            maxWidth: '1280px',
+            maxWidth: '1216px',
             margin: '0 auto',
             gridTemplateColumns: 'repeat(auto-fit, minmax(310px, 1fr))',
             justifyContent: 'center',
             alignItems: 'center',
-            padding: '1rem',
+            padding: '2rem',
             rowGap: '2rem',
           }}
         >

@@ -9,7 +9,6 @@ const Banner: React.FC = () => {
   return (
     <S.Container>
       <Image src={banner} objectFit="cover" />
-      <Image src={banner} objectFit="cover" />
     </S.Container>
   )
 }

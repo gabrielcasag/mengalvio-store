@@ -7,13 +7,13 @@ interface ContainerProps {
 export const Container = styled.div<ContainerProps>`
   display: inline-flex;
   align-items: center;
-  height: 100%;
 
   span {
     display: flex;
     margin-left: 12px;
     cursor: text;
     height: 100%;
+    font-weight: 500;
   }
 
   ${({ hasDivisor }) =>

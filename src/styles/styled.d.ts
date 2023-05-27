@@ -18,5 +18,9 @@ declare module 'styled-components' {
       tablet: string
       desktop: string
     }
+    spaces: {
+      gridMargin: string
+      gridMaxWidth: string
+    }
   }
 }

@@ -3,7 +3,7 @@ import {
   RiInstagramLine,
   RiWhatsappLine,
   RiShoppingBasket2Line,
-  RiUser6Line,
+  RiUser2Fill,
 } from 'react-icons/ri'
 import IconButtton from '@/components/IconButton'
 
@@ -33,7 +33,7 @@ const TopNav: React.FC = () => {
           hasDivisor
         />
         <IconButtton
-          icon={<RiUser6Line />}
+          icon={<RiUser2Fill />}
           click={() => console.log('Whatsapp')}
         />
       </div>

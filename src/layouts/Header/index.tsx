@@ -39,7 +39,11 @@ const Header: React.FC<HeaderProps> = ({ toggleMenu }) => {
         </S.MenuList>
 
         <h2 id="logo">
-          <Image src={logo} objectFit="cover" />
+          <Image
+            src={logo}
+            objectFit="cover"
+            alt="Logomarca da Mengalvio Calçados"
+          />
         </h2>
 
         <S.MenuList position="end">

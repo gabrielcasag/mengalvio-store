@@ -7,13 +7,15 @@ export const TopNav = styled.nav`
   display: grid;
   grid-template-columns: 1fr 1fr;
 
+  padding: 0.2rem ${props => props.theme.spaces.gridMargin};
+
   > div {
-    align-items: center;
     display: flex;
+    align-items: center;
+
     width: 100%;
-    padding: 0.25rem 2rem;
     column-gap: 1rem;
-    max-width: 1200px;
+    max-width: ${props => props.theme.spaces.gridMaxWidth};
     margin: 0 auto;
 
     &:first-child {
